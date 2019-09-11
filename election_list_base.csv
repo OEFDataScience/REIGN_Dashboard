@@ -70,8 +70,8 @@ ccode,electionnumber,country,elec_year,elec_month,elec_day,sequence,event,elecnu
 615,14,Algeria,2014,4,17,1,"Vote, As Scheduled",615014,X,Y,Y,Y,Y,N
 615,15,Algeria,2019,3,12,1,Delay Announced,615015,X,Y,Y,,,N
 615,15,Algeria,2019,4,18,2,Voided,615015,X,Y,Y,,,N
-615,16,Algeria,2019,6,2,1,Delay Announced,615015,X,Y,Y,,,N
-615,16,Algeria,2019,7,4,2,Voided,615015,X,Y,Y,,,N
+615,16,Algeria,2019,6,2,1,Delay Announced,615016,X,Y,Y,,,N
+615,16,Algeria,2019,7,4,2,Voided,615016,X,Y,Y,,,N
 232,0,Andorra,1981,12,16,1,"Vote, As Scheduled",232000,L,Y,N,N,Y,N
 232,1,Andorra,1985,12,,1,"Vote, As Scheduled",232001,L,Y,Y,N,Y,N
 232,2,Andorra,1989,12,,1,"Vote, As Scheduled",232002,L,Y,Y,N,Y,N
@@ -241,7 +241,7 @@ ccode,electionnumber,country,elec_year,elec_month,elec_day,sequence,event,elecnu
 305,20,Austria,2017,5,14,1,Announced,305020,L,Y,Y,N,Y,N
 305,20,Austria,2017,10,15,2,"Vote, Early",305020,L,Y,Y,N,Y,N
 305,21,Austria,2019,5,19,1,Announced,305021,L,Y,Y,,,N
-305,21,Austria,2019,9,30,2,"Upcoming, Scheduled",305021,L,Y,Y,,,N
+305,21,Austria,2019,9,29,2,"Upcoming, Scheduled",305021,L,Y,Y,,,N
 373,0,Azerbaijan,1991,9,8,1,"Vote, As Scheduled",373000,X,Y,N,Y,N,N
 373,1,Azerbaijan,1992,2,,1,Announced,373001,X,Y,Y,N,Y,N
 373,1,Azerbaijan,1992,6,7,2,"Vote, Early",373001,X,Y,Y,N,Y,N
@@ -1051,7 +1051,7 @@ ccode,electionnumber,country,elec_year,elec_month,elec_day,sequence,event,elecnu
 390,25,Denmark,2015,6,,1,Announced,390025,L,Y,Y,N,Y,N
 390,25,Denmark,2015,6,18,2,"Vote, Early",390025,L,Y,Y,N,Y,N
 390,25,Denmark,2015,9,,3,Deadline Met,390025,L,Y,Y,N,Y,N
-390,26,Denmark,2019,6,5,1,"Upcoming, Deadline",390026,L,Y,Y,,,N
+390,26,Denmark,2019,6,5,1,"Vote, As Scheduled",390026,L,Y,Y,N,Y,N
 522,0,Djibouti,1977,5,8,1,"Vote, As Scheduled",522000,X,Y,N,Y,N,N
 522,1,Djibouti,1981,6,12,1,"Vote, As Scheduled",522001,X,Y,N,Y,N,N
 522,2,Djibouti,1987,4,24,1,"Vote, As Scheduled",522002,X,Y,N,Y,N,N
@@ -1376,7 +1376,7 @@ ccode,electionnumber,country,elec_year,elec_month,elec_day,sequence,event,elecnu
 220,27,France,2017,4,23,1,"Vote, As Scheduled",220027,X,Y,Y,,,1
 220,28,France,2017,4,23,1,Announced,220028,X,Y,Y,N,Y,2
 220,28,France,2017,5,7,2,"Vote, Early",220028,X,Y,Y,N,Y,2
-220,29,France,2022,4,,,"Upcoming, Scheduled",220029,X,Y,Y,,,
+220,29,France,2022,4,,1,"Upcoming, Scheduled",220029,X,Y,Y,,,
 481,0,Gabon,1958,9,28,1,"Vote, As Scheduled",481000,R,Y,N,N,N,N
 481,1,Gabon,1961,1,,1,Announcement Assumed,481001,X,Y,Y,Y,N,N
 481,1,Gabon,1961,2,12,2,"Vote, Early",481001,X,Y,Y,Y,N,N
@@ -1528,7 +1528,10 @@ ccode,electionnumber,country,elec_year,elec_month,elec_day,sequence,event,elecnu
 350,27,Greece,2015,1,25,2,"Vote, Early",350027,L,Y,Y,N,Y,N
 350,28,Greece,2015,8,,1,Announced,350028,L,Y,Y,N,Y,N
 350,28,Greece,2015,9,20,2,"Vote, Early",350028,L,Y,Y,N,Y,N
-350,29,Greece,2019,10,20,1,"Upcoming, Deadline",350029,L,Y,Y,,,N
+350,29,Greece,2019,5,26,1,Announced,350029,L,Y,Y,,,N
+350,29,Greece,2019,7,7,2,"Vote, As Scheduled",350029,L,Y,Y,N,Y,N
+350,30,Greece,2023,7,,1,"Upcoming, Deadline",350030,L,Y,Y,,,N
+350,29,Greece,2019,10,20,3,Deadline Met,350029,L,Y,Y,,,N
 55,0,Grenada,1972,2,28,1,"Vote, As Scheduled",55000,L,Y,Y,Y,N,N
 55,1,Grenada,1976,9,,1,Announcement Assumed,55001,L,Y,Y,Y,N,N
 55,1,Grenada,1976,12,7,2,"Vote, Early",55001,L,Y,Y,Y,N,N
@@ -1603,7 +1606,10 @@ ccode,electionnumber,country,elec_year,elec_month,elec_day,sequence,event,elecnu
 90,29,Guatemala,2015,9,6,1,"Vote, As Scheduled",90029,X,Y,Y,,,1
 90,30,Guatemala,2015,9,7,1,Announced,90030,X,Y,Y,N,Y,2
 90,30,Guatemala,2015,10,25,2,"Vote, Early",90030,X,Y,Y,N,Y,2
-90,31,Guatemala,2019,6,16,1,"Upcoming, Scheduled",90031,X,Y,Y,,,N
+90,31,Guatemala,2019,6,16,1,"Vote, As Scheduled",90031,X,Y,Y,,,1
+90,32,Guatemala,2019,6,17,1,Announced,90032,X,Y,Y,N,Y,2
+90,32,Guatemala,2019,8,11,2,"Vote, As Scheduled",90032,X,Y,Y,N,Y,2
+90,33,Guatemala,2023,6,,1,"Upcoming, Scheduled",90033,X,Y,Y,,,N
 438,0,Guinea,1958,9,28,1,"Vote, As Scheduled",438000,R,Y,N,Y,Y,N
 438,1,Guinea,1960,12,,1,Announcement Assumed,438001,X,Y,N,N,Y,N
 438,1,Guinea,1961,1,27,2,"Vote, Early",438001,X,Y,N,N,Y,N
@@ -1687,12 +1693,11 @@ ccode,electionnumber,country,elec_year,elec_month,elec_day,sequence,event,elecnu
 110,11,Guyana,2011,11,28,1,"Vote, As Scheduled",110011,L,Y,Y,Y,Y,N
 110,12,Guyana,2015,1,,1,Announced,110012,L,Y,Y,N,Y,N
 110,12,Guyana,2015,5,11,2,"Vote, Early",110012,L,Y,Y,N,Y,N
-110,13,Guyana,2019,12,21,1,Regime Failure,110013,L,Y,Y,,,N
-110,13,Guyana,2020,5,,2,Voided,110013,L,Y,Y,,,N
+110,13,Guyana,2018,12,21,1,Regime Failure,110013,L,Y,Y,,,N
 110,14,Guyana,2018,12,21,1,Announced,110014,L,Y,N,,,N
 110,14,Guyana,2019,3,21,2,Deadline Not Met,110014,L,Y,N,,,N
 110,15,Guyana,2019,3,20,1,Announced,110015,L,Y,N,,,N
-110,15,Guyana,2019,11,30,2,"Upcoming, Scheduled",110015,L,Y,N,,,N
+110,15,Guyana,2019,12,31,2,"Upcoming, Scheduled",110015,L,Y,N,,,N
 41,0,Haiti,1946,8,,1,"Vote, As Scheduled",41000,X,Y,Y,N,N,N
 41,1,Haiti,1950,5,10,1,Regime Failure,41001,X,Y,Y,,,N
 41,1,Haiti,1950,8,,2,Voided by Regime Change,41001,X,Y,Y,,,N
@@ -2109,8 +2114,8 @@ ccode,electionnumber,country,elec_year,elec_month,elec_day,sequence,event,elecnu
 705,6,Kazakhstan,2011,4,3,2,"Vote, Early",705006,X,Y,Y,Y,N,N
 705,7,Kazakhstan,2015,2,,1,Announced,705007,X,Y,Y,Y,N,N
 705,7,Kazakhstan,2015,4,26,2,"Vote, Early",705007,X,Y,Y,Y,N,N
-705,8,Kazakhstan,2019,5,9,1,Announced,705008,X,Y,Y,,,N
-705,8,Kazakhstan,2019,6,9,2,"Upcoming, Scheduled",705008,X,Y,Y,,,N
+705,8,Kazakhstan,2019,5,9,1,Announced,705008,X,Y,Y,Y,N,N
+705,8,Kazakhstan,2019,6,9,2,"Vote, As Scheduled",705008,X,Y,Y,Y,N,N
 501,0,Kenya,1963,5,18,1,"Vote, As Scheduled",501000,X,N,Y,Y,N,N
 501,1,Kenya,1969,12,6,1,"Vote, As Scheduled",501001,X,N,Y,Y,N,N
 501,2,Kenya,1974,10,14,1,"Vote, As Scheduled",501002,X,N,Y,Y,N,N
@@ -2525,7 +2530,8 @@ ccode,electionnumber,country,elec_year,elec_month,elec_day,sequence,event,elecnu
 435,11,Mauritania,2007,3,11,1,"Vote, As Scheduled",435011,X,Y,N,Y,Y,2
 435,12,Mauritania,2009,7,18,1,"Vote, As Scheduled",435012,X,Y,N,Y,Y,N
 435,13,Mauritania,2014,6,21,1,"Vote, As Scheduled",435013,X,Y,Y,Y,N,N
-435,14,Mauritania,2019,6,22,1,"Upcoming, Scheduled",435014,X,Y,Y,,,Y
+435,14,Mauritania,2019,6,22,1,"Vote, As Scheduled",435014,X,Y,Y,Y,Y,N
+435,15,Mauritania,2024,6,,1,"Upcoming, Scheduled",435015,X,Y,Y,,,N
 590,0,Mauritius,1967,8,7,1,"Vote, As Scheduled",590000,L,Y,Y,N,Y,N
 590,1,Mauritius,1976,12,23,1,"Vote, As Scheduled",590001,L,Y,Y,Y,N,N
 590,2,Mauritius,1982,2,,1,Announced,590002,L,Y,Y,N,Y,N
@@ -2709,7 +2715,8 @@ ccode,electionnumber,country,elec_year,elec_month,elec_day,sequence,event,elecnu
 970,23,Nauru,2013,5,23,1,Announced,970023,L,Y,Y,N,Y,N
 970,23,Nauru,2013,6,8,2,"Vote, Early",970023,L,Y,Y,N,Y,N
 970,24,Nauru,2016,7,9,1,"Vote, As Scheduled",970024,L,Y,Y,Y,N,N
-970,25,Nauru,2019,8,31,1,"Upcoming, Deadline",970025,L,Y,Y,,,N
+970,25,Nauru,2019,8,24,1,"Vote, As Scheduled",970025,L,Y,Y,N,Y,N
+970,26,Nauru,2022,8,31,1,"Upcoming, Deadline",970026,L,Y,Y,,,N
 790,1,Nepal,1990,11,,1,Announced,790001,L,Y,N,Y,Y,N
 790,1,Nepal,1991,5,12,2,"Vote, Early",790001,L,Y,N,Y,Y,N
 790,2,Nepal,1994,7,,1,Announced,790002,L,Y,Y,N,Y,N
@@ -3865,7 +3872,11 @@ ccode,electionnumber,country,elec_year,elec_month,elec_day,sequence,event,elecnu
 616,13,Tunisia,2014,11,23,1,"Vote, As Scheduled",616013,X,Y,N,,,1
 616,14,Tunisia,2014,11,23,1,Announced,616014,X,Y,N,Y,Y,2
 616,14,Tunisia,2014,12,21,2,"Vote, Early",616014,X,Y,N,Y,Y,2
-616,15,Tunisia,2019,11,17,1,"Upcoming, Scheduled",616015,X,Y,Y,,,N
+616,15,Tunisia,2019,7,25,1,Announced,616015,X,Y,Y,,,N
+616,15,Tunisia,2019,11,17,2,Voided,616015,X,Y,Y,,,N
+616,16,Tunisia,2019,7,31,1,Announced,616016,X,Y,N,,,N
+616,16,Tunisia,2019,9,15,2,"Upcoming, Scheduled",616016,X,Y,N,,,N
+616,17,Tunisia,2024,11,,1,"Upcoming, Scheduled",616017,X,Y,Y,,,N
 640,0,Turkey,1946,7,21,1,"Vote, As Scheduled",640000,L,Y,Y,Y,N,N
 640,1,Turkey,1950,5,14,1,"Vote, As Scheduled",640001,L,Y,Y,N,Y,N
 640,2,Turkey,1954,5,2,1,"Vote, As Scheduled",640002,L,Y,Y,Y,Y,N
@@ -3929,7 +3940,7 @@ ccode,electionnumber,country,elec_year,elec_month,elec_day,sequence,event,elecnu
 947,16,Tuvalu,2013,8,2,1,Announcement Assumed,947016,L,Y,Y,N,Y,N
 947,16,Tuvalu,2013,8,4,2,"Vote, Early",947016,L,Y,Y,N,Y,N
 947,17,Tuvalu,2015,3,31,1,"Vote, As Scheduled",947017,L,Y,Y,N,N,N
-947,18,Tuvalu,2019,12,31,1,"Upcoming, Deadline",947018,L,Y,Y,,,
+947,18,Tuvalu,2019,9,9,1,"Upcoming, Deadline",947018,L,Y,Y,,,
 500,0,Uganda,1962,4,25,1,"Vote, As Scheduled",500000,L,Y,Y,Y,N,N
 500,1,Uganda,1969,4,,1,Deadline Not Met,500001,L,Y,Y,,,N
 500,2,Uganda,1980,5,,1,Announced,500002,L,Y,Y,N,Y,N
